@@ -19,15 +19,15 @@
 		</section>
 
 		<ul>
-			<li id="about">
+			<li class="topLinks" id="about">
 				<a href="index.html">About |</a>
 			</li>
 
-			<li id="contact">
+			<li class="topLinks" id="contact">
 				<a href="contact.html"> Contact |</a>
 			</li>
 
-			<li id="portfolio">
+			<li class="topLinks" id="portfolio">
 				<a href="portfolio.html"> Portfolio</a>
 			</li>
 
@@ -35,9 +35,9 @@
 
 	</header>
 
-	<div id="contactForm">
+	<div class="mainContent" id="contactForm">
 		
-		<h2 id="contactHeader">Contact</h2>
+		<h2 class="mainContentHeader" id="contactHeader">Contact</h2>
 		<br>
 
 		<form>
@@ -60,12 +60,15 @@
 		 Message
 		 	<br>
 		 	<br>
-		  	<textarea name="formMessage" cols="78" rows="12" color="#777777"></textarea> 
+		  	<textarea name="formMessage" cols="78" rows="12"></textarea> 
 		  	<br>
+
+		<br>
+		<button type="submit" form="contactForm" value="Submit">Submit</button>
 
 		</form>
 
-		</div>
+	</div>
 
 
 	<div id="connect">
@@ -73,15 +76,15 @@
 		<h2 id="connectWithMe">Connect with me</h2>
 
 		<a href="https://github.com/nlapier">
-			<img src="assets/images/github.png" alt="Github" id="github-image"/>
+			<img src="assets/images/github.png" alt="Github" id="github-image" class="connectImages"/>
 		</a>
 
 		<a href="https://www.linkedin.com/in/nathaniel-lapier-6637244a?trk=nav_responsive_tab_profile">
-			<img src="assets/images/linkedincircle.png" alt="LinkedIn" id="linkedin-image"/>
+			<img src="assets/images/linkedincircle.png" alt="LinkedIn" id="linkedin-image" class="connectImages"/>
 		</a>
 
 		<a href="http://stackoverflow.com/users/6331500/nlp">
-			<img src="assets/images/stackoverflow.png" alt="Stack Overflow" id="SO-image"/>
+			<img src="assets/images/stackoverflow.png" alt="Stack Overflow" id="SO-image" class="connectImages"/>
 		</a>
 
 	</div> 
